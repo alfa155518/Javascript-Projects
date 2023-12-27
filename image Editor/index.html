@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Emage Editor To add Some Filters On Image And Download It ">
+        <title>image Editor</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="editor">
+        <div class="img-and-btn">
+            <img class="img-uploaded" src="" alt="" />
+            <canvas id="canvas-img"></canvas>
+            <div class="btn-upload"><span>Upload</span></div>
+            <div class="upload">
+            <label for="upload">chose Image</label>
+            <input type="file" id="upload">
+            </div>
+        </div>
+        <div class="filters">
+            <div class="item">
+            <label for="Saturation">Saturation</label>
+            <input id="saturate" type="range" data-sizing="%" />
+            </div>
+            <div class="item">
+            <label for="Contrast">Contrast</label>
+            <input id="contrast" type="range" data-sizing="%" />
+            </div>
+            <div class="item">
+            <label for="Brightens">Brightens</label>
+            <input id="brightness" type="range" data-sizing="%"/>
+            </div>
+            <div class="item">
+            <label for="Grayscale">Grayscale</label>
+            <input id="grayscale" type="range" data-sizing="" value="0"/>
+            </div>
+            <div class="item">
+            <label for="Sepia">Sepia</label>
+            <input id="sepia" type="range" data-sizing="%" value="0"/>
+            </div>
+            <div class="item">
+            <label for="Blur">Blur</label>
+            <input id="blur" type="range" data-sizing="px" value="0"/>
+            </div>
+            <div class="item">
+            <label for="Hue-Rotate">Hue Rotate</label>
+            <input id="hue-rotate" type="range" data-sizing="deg" value="0"/>
+            </div>
+            <div class="item">
+            <label for="invert">invert</label>
+            <input id="invert" type="range" data-sizing="%" value="0"/>
+            </div>
+            <div class="btn-reset">Reset</div>
+            <a download="filtered" class="download">Download</a>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
