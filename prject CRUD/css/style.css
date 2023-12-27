@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* start register Form  */
+
+nav .all-links {
+    background-color: #0075ff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav .all-links .logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+nav .all-links .logo a {
+    text-decoration: none;
+    color: #FFF;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+nav .all-links ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .all-links ul li {
+    margin: 10px;
+    list-style: none;
+}
+nav .all-links ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #FFF;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+nav .all-links .info {
+    display: flex;
+    align-items: center;
+}
+nav .all-links .info .log-out {
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 7px 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+nav .all-links .info .user {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav .all-links .info .user span {
+    color:purple;
+    font-size: 20px;
+}
+
+nav .all-links a:hover,
+nav .all-links .info .log-out:hover {
+    color: #360aff;
+}
+.all-links .mode i {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.all-links .mode .light:hover {
+    color: orange;
+}
+.all-links .mode .dark:hover {
+    color: #0e0243;
+}
+
+.register-form,
+.login-form {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.register-form form,
+.login-form form {
+    background-color: #aaa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.register-form form h1,
+.login-form form h1 {
+    color: #0075ff;
+}
+.register-form input,
+.login-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    border: 1px solid #0075ff;
+    margin: 10px;
+}
+.register-form input[type=submit],
+.login-form input[type=submit] {
+    background-color: #0075ff;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 17px;
+}
+.register-form span a,
+.login-form span a {
+    text-decoration: none;
+}
+
+.error-message {
+    position: absolute;
+    top: 26%;
+    left: 37%;
+    color: #FFF;
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.error-message-input {
+    position: absolute;
+    top: 26%;
+    left: 37%;
+    color: #FFF;
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* end register Form  */
+
+/* start header  */
+
+.crud {
+    width: 80%;
+    margin: 20px auto;
+}
+.crud header {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.crud header h1 {
+    color: #fff;
+}
+.crud header p {
+    color: #fff;
+}
+/* end header  */
+
+/* start inputs  */
+.inputs {
+    width: 100%;
+} 
+input,
+.crud button {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    background-color: #222;
+}
+input:focus {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-color: #222;
+}
+.inputs .price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.inputs .price input {
+    flex: 1;
+    margin: 10px;
+    background-color: #111;
+} 
+.inputs .price p {
+    color: #fff;
+    font-size: 20px;
+    background-color: #0075ff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} 
+.inputs .price p span {
+    color: #FFF;
+    padding: 4px;
+} 
+
+.crud button {
+    background-color: #0075ff;
+    font-size: 17px;
+    font-weight: bold;
+} 
+.crud button:focus {
+    transform: scale(1.1);
+    letter-spacing: 1px;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+/* end inputs  */
+
+/* start outputs  */
+.btn-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn-search button {
+    flex: 1;
+    margin: 0 5px;
+}
+.delete-all button {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #0075ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th {
+    text-transform: uppercase;
+}
+th,td {
+    padding: 5px;
+}
+/* end outputs  */

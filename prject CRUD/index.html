@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- start nav  -->
+    <nav>
+        <div class="all-links">
+            <div class="logo"><a href="./index.html">CRUD</a></div>
+            <div class="info">
+                <span class="log-out">Log-Out</span>
+                <p class="user">Hello: <span></span></p>
+            </div>
+            <ul>
+                <li><a href="./login.html">Sing-In</a></li>
+                <li><a href="./register.html">Sing-Up</a></li>
+            </ul>
+            <div class="mode">
+                <i class="fa-regular fa-moon dark" data-color="#333"></i>
+                <i class="fa-regular fa-sun light" data-color="#F66565"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav  -->
+
+    <!-- start CRUD  -->
+    <section class="crud">
+        <!-- start Header  -->
+        <header>
+            <h1>crud</h1>
+            <p>products management system</p>
+        </header>
+        <!-- end Header  -->
+
+        <!-- start inputs -->
+        <section class="inputs">
+            <input type="text"  id="title" placeholder="title">
+            <div class="price">
+                <input type="number"  id="price" placeholder="price">
+                <input type="number"  id="taxes" placeholder="taxes">
+                <input type="number"  id="ads" placeholder="ads">
+                <input type="number"  id="discount" placeholder="discount">
+                <p id="total">total : <span></span></p>
+            </div>
+            <input type="number"  id="count" placeholder="count">
+            <input type="text"  id="category" placeholder="category">
+            <button  id="submit" >Create</button>
+        </section>
+        <!-- end inputs -->
+
+        <!-- start outputs -->
+        <section class="outputs">
+            <div class="search-block">
+                <input onkeyup="searchData(this.value)" type="text"  id="search" placeholder="Search">
+                <div class="btn-search">
+                    <button onclick="searchMood(this.id)" id="search-title">Search By Title </button>
+                    <button onclick="searchMood(this.id)" id="search-category">Search By Category </button>
+                </div>
+            </div>
+            <div class="delete-all">
+                
+            </div>
+            <table>
+            <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                
+            </table>
+        </section>
+        <!-- end outputs -->
+    </section>
+    <!-- end CRUD  -->
+    <script src="./js/sript.js"></script>
+</body>
+</html>
