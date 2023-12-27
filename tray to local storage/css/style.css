@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif, Tahoma, Verdana;
+}
+
+.parent {
+    width: 600px;
+    margin: 40px auto;
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.parent input {
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.parent input:focus {
+    outline: none;
+}
+.parent .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.parent .buttons span {
+    background-color: #009688;
+    text-align: center;
+    color: #EEE;
+    padding: 6px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.parent .result {
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px dashed #EEE;
+    text-align: center;
+}
+.parent .result span {
+    font-weight: bold;
+    color: #006988;
+}
