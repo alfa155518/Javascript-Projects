@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="e-commerce Fruits And Vegetables " />
+    <title>Fruits And Vegetables</title>
+    <!--Start  Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/product-1.png" />
+    <!--End  Fonts  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div class="scroller">
+
+    </div>
+
+    <!-- Start Spinner Loader -->
+    <div class="spinner-loader">
+      <div class="spinner-border text-info"></div>
+    </div>
+    <!-- End Spinner Loader -->
+
+    <!-- Start Scroll To Top  -->
+    <div class="scroll-top btn btn-outline-success">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- End Scroll To Top  -->
+
+    <!-- start Header  -->
+    <header>
+      <div class="header text-success text-center fs-5 p-1">
+        Free shipping for all order of $105
+      </div>
+    </header>
+    <!-- End Header  -->
+
+    <!-- Start Navbar  -->
+    <nav class="navbar navbar-expand-lg mb-5">
+      <div class="container">
+        <a href="index.html" class="navbar-brand fs-2">Organic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#a">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="container justify-content-around collapse navbar-collapse align-items-center"
+          id="a">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-success fs-5 active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="testimonial.html" class="nav-link fs-5">Testimonials</a>
+            </li>
+            <li class="nav-item"><a href="#products" class="nav-link fs-5">Shop</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link fs-5">Blog</a></li>
+            <li class="nav-item">
+              <a href="trendy-products.html" class="nav-link fs-5">Trendy Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link fs-5">Contact</a>
+            </li>
+          </ul>
+          <div class="icons">
+            <ul class="nav">
+              <li
+                class="p-3 bg-light m-2 rounded-circle lh-1 border border-success">
+                <i class="fa-solid fa-magnifying-glass text-success"></i>
+              </li>
+                      <li
+                      class="p-3 bg-light m-2 rounded-circle lh-1 position-relative">
+                      <a href="favorite.html">    <i class="fa-solid fa-heart text-success"
+                        >
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge num rounded-pill bg-success num-heart"
+                            >0</span
+                            >
+                            </i
+                        ></a>
+                      
+                      </li>
+              <li
+              class="p-3 bg-light m-2 rounded-circle lh-1 position-relative">
+              <a href="products.html">    <i class="fa-solid fa-cart-shopping text-success"
+                >
+                <span
+                    class="position-absolute top-0 start-100 translate-middle badge num rounded-pill bg-success shop"
+                    >0</span
+                    >
+                    </i
+                ></a>
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar  -->
+
+    <!-- Start Landing Page  -->
+    <section class="landing text-center">
+      <div class="info mb-5">
+        <small>25% off all products.</small>
+        <h2 class="fw-bold">
+          Qualityful
+          <span class="text-success fs-1 fw-bold">organic</span> fruit &
+          <span class="text-success fs-1 fw-bold">vegetables</span>.
+        </h2>
+        <span class="d-block text-secondary m-4"
+          >It has survived not only five centuries also there leaped.</span
+        >
+        <a href="#" class="btn btn-success"
+          >Shop Now <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+      <div class="image"><img src="images/hero-banner.png" alt="" /></div>
+    </section>
+    <!-- End Landing Page  -->
+
+    <!-- Start Service  -->
+    <section class="service bg-success align-items-center text-center row">
+      <div class="item col-4 p-5 text-center align-items-center">
+        <img src="images/service-icon-1.png" alt="" />
+        <span class="text-light fs-2 mx-2">Free Shipping</span>
+      </div>
+      <div class="item col-4 p-5 text-center align-items-center">
+        <img src="images/service-icon-2.png" alt="" />
+        <span class="text-light fs-2 mx-2">Safe Payment</span>
+      </div>
+      <div class="item col-4 p-5 text-center align-items-center">
+        <img src="images/service-icon-3.png" alt="" />
+        <span class="text-light fs-2 mx-2">24/7 Support</span>
+      </div>
+    </section>
+    <!-- End Service  -->
+
+    <!-- Start offers  -->
+
+    <div class="container">
+      <section class="offers align-items-center text-center">
+        <div class="box">
+          <div class="info">
+            <span class="text-success d-block fw-bold m-3 fs-5"
+              >Up To 25% Off</span
+            >
+            <h4 class="fw-bold p-2">Fresh vegetables package.</h4>
+            <button class="btn btn-outline-success">Shop Now</button>
+          </div>
+          <img src="images/offer-1.png" alt="Fresh vegetables package." />
+        </div>
+
+        <div class="box" id="ds">
+          <div class="info">
+            <span class="text-success d-block fw-bold m-3 fs-5"
+              >Up To 25% Off</span
+            >
+            <h4 class="fw-bold p-2">Healthy & fresh beef.</h4>
+            <button class="btn btn-outline-success">Shop Now</button>
+          </div>
+          <img src="images/offer-2.png" alt="Healthy & fresh beef." />
+        </div>
+      </section>
+    </div>
+
+    <!-- End offers  -->
+
+    <!-- Start Products  -->
+
+    <section class="products" id="products">
+      <div class="sec-title text-center m-4 p-4">
+        <span class="text-success fs-5">-- Organic Products --</span>
+        <h2 class="fw-bold">All Organic Products</h2>
+      </div>
+
+      <ul class="links-products  list-unstyled m-5 p-5 ">
+        <li class="active"  data-item=".vegetables"><img src="images/filter-1-active.png" alt=""> <span class="mx-2 text-light">Fresh Vegetables</span></li>
+        <li data-item=".fish"><img src="images/filter-2-active.png" alt=""> <span class="mx-2 text-light">Fish & Meat</span> </li>
+        <li  data-item=".fruits"><img src="images/filter-3-active.png" alt=""> <span class="mx-2 text-light">Healthy Fruit</span> </li>
+        <li  data-item=".all"><img src="images/filter-1-active.png" alt=""> <span class="mx-2 text-light">Dairy Products</span> </li>
+      </ul>
+
+      <div class="main-popup-info"></div>
+
+      
+      <div class="container">
+        <div class="all-products text-center">
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-1.png">
+
+            <div class="images">
+            <img  src="" alt="" class="img-1 text-center" data-src="images/product-1.png">
+            <img src="" alt="" class="img-2 text-center" data-src="images/orange-2.jpeg">
+            </div>
+
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fresh Orangey</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+          <div class="item vegetables all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-2.png">
+            <div class="images"> 
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-2.png">
+              <img src="" alt="" class="img-2 text-center" data-src="images/lemon2.jpeg"></div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">key Lime</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+          
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-3.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-3.png">
+            <img src="" alt="" class="img-2 text-center" data-src="images/watemellon-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fresh Watermelon</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-4.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-4.png">
+              <img src="" alt="" class="img-2 text-center" data-src="images/strawbery-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Visual matches</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-5.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-5.png">
+              <img src="" alt="" class="img-2 text-center" data-src="images/pomagranate-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Pomagranate Fruit</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+          <div class="item vegetables all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-6.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-6.png">
+            <img src="" alt="" class="img-2 text-center" data-src="images/onion-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Red onion</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+
+
+          <div class="item vegetables all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-7.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-7.png">
+              <img src="" alt="" class="img-2 text-center" data-src="images/Broccoli-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Lens Results Broccoli</span>
+            <div class="prices py-2">
+              <span class="text-success">$75.00</span>
+              <span class="text-secondary">$85.00</span>
+            </div>
+            <button class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item vegetables all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block img-empty" data-src="images/product-8.png">
+            <div class="images">
+              <img src="" alt="" class="img-1 text-center" data-src="images/product-8.png">
+              <img src="" alt="" class="img-2 text-center" data-src="images/lettuce-2.jpeg">
+            </div>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Lens Results Spinach</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block " data-src='images/fish1.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block " data-src='images/fish2.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block " data-src='images/meet-1.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block " data-src='images/meet-2.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block " data-src='images/meat-3.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/meat-4.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fish all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/fish-3.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Fish And Meat</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/fruit-1.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Healthy Fruits</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/fruit-2.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Healthy Fruits</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/fruit-3.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Healthy Fruits</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+
+          <div class="item fruits all">
+            <div class="btn-warper">
+              <i class="fa-regular fa-eye text-light bg-success p-1 text-center lh-1 rounded-circle"></i>
+              <i class="fa-regular fa-heart text-light bg-success p-1 text-center lh-1 rounded-circle heart"></i>
+            </div>
+            <img src="" alt="" class="py-3 d-block" data-src='images/fruit-4.jpeg'>
+            <div class="stars">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <span class="name d-block my-1">Healthy Fruits</span>
+            <div class="prices py-2">
+              <span  class="text-success">$75.00</span>
+              <span  class="text-secondary">$85.00</span>
+            </div>
+            <button   class="btn btn-outline-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Products  -->
+
+    <!-- Start Category -->
+    <section class="category text-center">
+      <div class="category-item">
+        <span class="fs-2 text-success d-block m-2">Summer Offer</span>
+        <h2 class="fw-bold">Up To 50% Off All Product.</h2>
+        <p class="text-secondary fs-5">It has survived not only five centuries also leaped.</p>
+        <a href="#products" class="btn btn-success">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+    <!-- End Category -->
+
+    <!-- Start Blog  -->
+    <section class="our-blog text-center" id="blog">
+      <div class="container">
+        <div class="sec-title text-center m-4 p-4">
+          <span class="text-success fs-5">-- News And Blog --</span>
+          <h2 class="fw-bold">Bright Side Vegetarianism</h2>
+        </div>
+        <div class="all-boxes text-center">
+  
+          <div class="box bg-light">
+            <img src="images/blog-1.jpg" alt="">
+            <div class="fans">
+              <i class="fa-regular fa-heart heart text-success ">  <span class="text-secondary p-1">58 Million</span></i>
+              <i class="fa-regular fa-calendar calendar text-success ">  <span class="text-secondary p-1">23 August, 2022</span></i>
+            </div>
+            <p class="text-success">We automatically search for andapply coupons when.</p>
+            <a href="blog.html" class="btn btn-outline-success">Read More <i class="fa-solid fa-right-long"></i></a>
+          </div>
+  
+          <div class="box bg-light">
+            <img src="images/blog-2.jpg" alt="">
+            <div class="fans">
+              <i class="fa-regular fa-heart heart text-success">  <span class="text-secondary p-1">58 Million</span></i>
+              <i class="fa-regular fa-calendar calendar text-success">  <span class="text-secondary p-1">23 August, 2022</span></i>
+            </div>
+            <p class="text-success">We automatically search for andapply coupons when.</p>
+            <a href="blog.html" class="btn btn-outline-success">Read More <i class="fa-solid fa-right-long"></i></a>
+          </div>
+  
+          <div class="box bg-light">
+            <img src="images/blog-3.jpg" alt="">
+            <div class="fans">
+              <i class="fa-regular fa-heart heart text-success">  <span class="text-secondary p-1">58 Million</span></i>
+              <i class="fa-regular fa-calendar calendar text-success">  <span class="text-secondary p-1">23 August, 2022</span></i>
+            </div>
+            <p class="text-success">We automatically search for andapply coupons when.</p>
+            <a href="blog.html" class="btn btn-outline-success">Read More <i class="fa-solid fa-right-long"></i></a>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <!-- End Blog  -->
+
+    
+    <!-- Start News Letter -->
+    <section class="news-letter text-center">
+      <span class="text-success fs-2 mb-2 d-block">-- Subscribe Newsletter --</span>
+      <div class="container content text-center">
+        <div class="letter text-center m-4 p-4">
+          <h2 class="fw-bold text-light">Sign Up To Newsletter & Get <span class="text-success">20% Off.</span></h2>
+        </div>
+        </div>
+    </section>
+    <!-- End News Letter -->
+
+
+    <!-- Start About Us  -->
+    <section class="about-us">
+      <div class="sec-title text-center m-4 p-4">
+        <span class="text-success fs-5">-- About Us --</span>
+        <h2 class="fw-bold">Bright Side Vegetarianism</h2>
+      </div>
+      <div class="content text-center">
+        <img src="images/hero-banner.png" alt="">
+        <div class="info">
+          <h2 class="text-success m-3">Fresh Vegetables And Fruits Delivery </h2>
+          <button class="btn btn-outline-success dropdown-toggle m-3" data-bs-target="#cool" data-bs-toggle="collapse">Read About Us</button>
+          <div class="collapse fs-5 text-info" id="cool">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatem, facilis quam porro error reprehenderit assumenda eveniet quod illum nisi quos molestias! Officiis, nam porro quam expedita veniam molestiae non, a assumenda provident qui molestias reprehenderit sapiente ab eligendi fugiat. Sunt similique totam recusandae animi saepe quis necessitatibus nulla rerum?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us  -->
+
+
+    <!-- Start Footer  -->
+    <footer class="text-light" id="footer">
+      <div class="all-links-footer p-3 container">
+        <ul class="list-unstyled">
+          <h3><a href="index.html" class="navbar-brand fs-2">Organic</a></h3>
+          <li class="lh-5 text-secondary">It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</li>
+          <div class="socials d-flex align-items-center flex-wrap ">
+            <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-facebook"></i></li>
+            <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-x-twitter"></i></li>
+            <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-skype"></i></li>
+            <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-linkedin"></i></li>
+          </div>
+        </ul>
+        <ul class="list-unstyled">
+          <h3>Company</h3>
+          <li class="text-secondary">About US</li>
+          <li class="text-secondary">Shop</li>
+          <li class="text-secondary">Blog</li>
+          <li class="text-secondary">products</li>
+          <li class="text-secondary">Contact Us</li>
+        </ul>
+        <ul class="list-unstyled">
+          <h3>Contact</h3>
+          <li class="text-secondary"><i class="fa-solid fa-location-dot"></i> <span>7 Green Lake Street Crawfordsville, IN 47933</span></li>
+          <li class="text-secondary"><i class="fa-solid fa-phone"></i> <span>+1 80 01250 0600</span></li>
+          <li class="text-secondary"><i class="fa-regular fa-envelope"></i> <span>organica@help.com</span></li>
+        </ul>
+        <ul class="list-unstyled">
+          <h3>Newsletter</h3>
+          <li class="text-secondary">You will be notified when somthing new will be appear.</li>
+          <form>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput" class="text-success">Email address</label>
+              </div>
+          </form>
+        </ul>
+      </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+    <!-- js Fils  -->
+    <script  src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"  type="module"></script>
+    <script src="js/addProducts.js"  type="module"></script>
+    <script src="js/favorite-products.js"  type="module"></script>
+    <script src="js/blog.js"  type="module"></script>
+  </body>
+</html>

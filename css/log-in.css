@@ -1,0 +1,70 @@
+:root {
+    --main-color:#23a45d;
+}
+
+
+body {
+    font-family: Arial Tahoma sans-serif;
+    background-image: url(../images/hero-right-bg.png);
+    background-size: cover;
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+
+/* Start Nav  */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-nav li a {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.navbar-nav li a:hover {
+    color: var(--main-color);
+}
+/* End Nav  */
+
+
+/* Start Form   */
+.my-form {
+    position: absolute;
+    top: 29%;
+    left: 9%;
+    background: #e9ecef7d;
+    padding: 16px;
+} 
+
+/* End Form   */
+
+
+
+
+
+/* Start Spinner Loader */
+.spinner-loader {
+    position: fixed;
+    background-color: #e7e7e7bf;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+.spinner-loader .spinner-border  {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+/* End Spinner Loader */
