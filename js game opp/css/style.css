@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial,Tahoma,sans-serif;
+    background-color: #706d6d;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px;
+}
+
+.container .box {
+    flex: 1 200px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container .box .narato-health,
+.container .box .sasake-health {
+    background-color: #c4baba;
+    width: 100%;
+    height: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: 10px 0 ;
+}
+
+.container .box .narato-health span,
+.container .box .sasake-health span {
+    background-color: #0075ff;
+    width: 100%;
+    height: 10px;
+    display: block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.box h2 {
+    font-size: 17px;
+}
+.box img {
+    width: 40%;
+    height: 40%;
+    padding: 20px 0;
+}
+
+.container .box .buttons span {
+    color: #FFF;
+    background-color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+}
+.container .box .buttons span.stop {
+    pointer-events: none;
+}
+
+.sasake-loose,
+.narato-loose{
+    padding: 20px;
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+
