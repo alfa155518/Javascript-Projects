@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-container {
+    width: 600px;
+    margin: 30px auto 0;
+    background-color: #f6f6f6;
+}
+
+.todo-container .add-task {
+    padding: 15px;
+    background-color:#009688 ;
+    position: relative;
+}
+
+.todo-container .add-task input {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    background-color: 255, 255, 255, .3;
+    width: calc(100% - 20px);
+    color: rgb(17, 117, 211);
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.todo-container .add-task input:focus {
+    outline: none;
+}
+
+.todo-container .add-task .plus {
+    font-size: 30px;
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    background-color: #FFF;
+    right: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 44px;
+    text-align: center;
+    color: #009688;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.todo-container .add-task .plus:hover {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.todo-container .task-content {
+    padding: 20px;
+}
+
+.todo-container .task-content  .no-task-message{
+    color: #777;
+    font-size: 15px;
+}
+
+.todo-container  .task-content > span {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.todo-container  .task-content > span:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.todo-container  .task-content .task-box .delete {
+    float: right;
+    background-color: #e91e63;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-container  .task-content .task-box.finished {
+    text-decoration: line-through;
+}
+
+.task-status {
+    overflow: hidden;
+    margin: 10px auto;
+    width: 600px;
+    font-size: 12px;
+}
+
+.task-status .tasks-count {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.task-status .tasks-completed {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    text-align: right;
+}
+
+.task-status .tasks-count span,
+.task-status .tasks-completed span {
+    color: #FFF;
+    padding: 1px 5px;
+    font-size: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.task-status .tasks-count span {
+    background-color: #e91e63;
+}
+
+.task-status .tasks-completed span {
+    background-color: #03e9f4;
+}
+
+
+/* start Buttons  */
+
+    .buttons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .buttons .finished-all,
+    .buttons .delete-all {
+        padding: 10px 7px 10px 7px;
+        color: #FFF;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .buttons .delete-all {
+        background-color: #e91e63;
+    }
+
+    .buttons .finished-all {
+        background-color: #009688;
+    }
+
+
+/* start over-lay  */
+.over-lay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* start Alert  */
+
+
+.container-alert {
+    width: 40%;
+    background-color: #FFF;
+    padding: 15px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    box-shadow: 2px 2px 2px 2px;
+    text-align: center;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+.container-alert.open {
+    display: block;
+}
+
+
+.container-alert h2 {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+
+.container-alert .ok {
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+
+.container-alert .ok:hover {
+    color: #fff;
+    background-color: red;
+}

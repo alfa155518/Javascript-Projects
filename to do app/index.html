@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <div class="add-task">
+            <input type="text">
+            <span class="plus">+</span>
+        </div>
+        <div class="task-content">
+            <span class="no-task-message">No task show</span>
+        </div>
+    </div>
+    <div class="task-status">
+        <div class="tasks-count">
+            Tasks <span>0</span>
+        </div>
+        <div class="tasks-completed">
+            completed <span>0</span>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="delete-all"><span>Delete All</span></div>
+        <div class="finished-all"><span>Finished All</span></div>
+    </div>
+
+    <!-- start container Alert  -->
+    <div class="container-alert">
+        <h2>You Must Write Task in Input Text</h2>
+        <button class="ok">OK</button>
+    </div>
+
+    <script src="./js/master.js"></script>
+</body>
+</html>
