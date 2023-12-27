@@ -1,0 +1,9 @@
+{
+    "object":{
+    "programming":["php","javascript","go","html","fortran","css","mysql","python"],
+    "Movie": ["prestiges","inception","parasite","interstellar","whiplash","memento","coco","up"],
+    "people":["albert einstein","hitchcock", "alexander", "cleopatra", "mahatma gandhi"],
+    "countries":["syria", "palestine", "yemen", "egypt", "bahrain", "qatar"],
+    "programers":["osam elzero", "islam codzila", "elon mask"]
+    }
+}

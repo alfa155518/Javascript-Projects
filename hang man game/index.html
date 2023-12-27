@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Hang-test</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+            <div class="name">Hangman</div>
+            <div class="category">Word From: <span></span></div>
+            </div>
+            <hr>
+            <div class="content">
+
+            <div class="hang-man-draw">
+                <div class="the-draw">
+                <div class="the-stand"></div>
+                <div class="the-hang"></div>
+                        <div class="the-rope"></div>
+                        <div class="the-man">
+                        <div class="the-head"></div>
+                        <div class="the-body"></div>
+                        <div class="the-hands"></div>
+                        <div class="the-legs"></div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="words">
+
+            </div>
+
+            </div>
+            <hr>
+            <div class="letters-guess">
+
+            </div>
+        </div>
+        <audio class="fail" src="./sound/failure-drum-sound-effect-2-7184.mp3"></audio>
+        <audio class="succ" preload="auto" src="./sound/success-1-6297.mp3"></audio>
+        <script src="./js/master.js"></script>
+    </body>
+    </html>
