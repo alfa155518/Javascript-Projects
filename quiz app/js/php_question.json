@@ -1,0 +1,67 @@
+[
+    {
+        "category": "PHP",
+    "title": "Which of the following is NOT a valid PHP comparison operator?",
+    "answer_1": "<=>",
+    "answer_2": ">=",
+    "answer_3": " <>",
+    "answer_4": ">==",
+    "right_answer": ">=="
+    },
+    {
+    "title": " How is the comparison of objects done in PHP?",
+    "answer_1": "We use the operator '===' to test t wo objects are instanced from the s ame class and have same attributes and equal values.",
+    "answer_2": "We use the operator '==' to test tw o objects are instanced from the sa me class and have same attributes a nd equal values.",
+    "answer_3": "We use the operator '=' to test two objects are instanced from the sam e class and have same attributes an d equal values.",
+    "answer_4": "Answer 1 And 3 Is Right",
+    "right_answer": "We use the operator '==' to test tw o objects are instanced from the sa me class and have same attributes a nd equal values."
+    },
+    {
+    "title": "Which command opens the interactive PHP shell from the command line interface?",
+    "answer_1": "php -a",
+    "answer_2": "php artisian",
+    "answer_3": "php _run",
+    "answer_4": "php -s",
+    "right_answer": "php -a"
+    },
+    {
+    "title": " Which of the following method can be used to create a MySql database using PHP?",
+    "answer_1": "mysql_connect()",
+    "answer_2": " mysql_query()",
+    "answer_3": "mysql_close()",
+    "answer_4": "None of the mentioned",
+    "right_answer": " mysql_query()"
+    },
+    {
+    "title": "Which of the following method of Exception class returns formated string of trace?",
+    "answer_1": "getMessage()",
+    "answer_2": "getCode()",
+    "answer_3": "getTrace()",
+    "answer_4": " getTraceAsString()",
+    "right_answer": " getTraceAsString()"
+    },
+    {
+    "title": "Which of the following type of variables are whole numbers, without a decimal point, like 4195?",
+    "answer_1": "Integers",
+    "answer_2": " Doubles",
+    "answer_3": "Booleans",
+    "answer_4": "Strings",
+    "right_answer": "Integers"
+    },
+    {
+    "title": " Which of the following method acts as a destructor function in a PHP class?",
+    "answer_1": " class_name()",
+    "answer_2": " __destruct",
+    "answer_3": "destructor",
+    "answer_4": "destructor()",
+    "right_answer": " __destruct"
+    },
+    {
+    "title": "When is the switch statement used:",
+    "answer_1": "The switch statement is used to avo id long blocks of if..elseif..else code",
+    "answer_2": "The switch statement is used to avo id long blocks of loops like do...w hile code.",
+    "answer_3": " The switch statement is used when s tatements like if..elseif..else do not work.",
+    "answer_4": "Answer 1,3",
+    "right_answer": "The switch statement is used to avo id long blocks of if..elseif..else code"
+    }
+]

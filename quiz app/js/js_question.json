@@ -1,0 +1,75 @@
+[
+    {
+        "category": "javascript",
+    "title": "Inside which HTML element do we put the JavaScript?",
+    "answer_1": "<scripting>",
+    "answer_2": "<script>",
+    "answer_3": "<js>",
+    "answer_4": "<javascript>",
+    "right_answer": "<script>"
+    },
+    {
+    "title": "What is the correct JavaScript syntax to change the content of the HTML element below?",
+    "answer_1": "document.getElementByName(`p`).innerHTML = `Hello World!`",
+    "answer_2": "document.getElementById(`demo`).innerHTML = `Hello World!`",
+    "answer_3": "#demo.innerHTML = `Hello World!`;",
+    "answer_4": "Answer 1 And 3 Is Right",
+    "right_answer": "document.getElementById(`demo`).innerHTML = `Hello World!`"
+    },
+    {
+    "title": "How can you add a comment in a JavaScript?",
+    "answer_1": "'This is a comment",
+    "answer_2": "<!--This is a comment-->",
+    "answer_3": "//This is a comment",
+    "answer_4": "All Answers Is Right",
+    "right_answer": "//This is a comment"
+    },
+    {
+    "title": "How to write an IF statement in JavaScript?",
+    "answer_1": "if (i == 5)",
+    "answer_2": "if i = 5",
+    "answer_3": "if i == 5 then",
+    "answer_4": "if i = 5 then",
+    "right_answer": "if (i == 5)"
+    },
+    {
+    "title": "How do you create a function in JavaScript?",
+    "answer_1": "function:myFunction()",
+    "answer_2": "function = myFunction()",
+    "answer_3": "function myFunction()",
+    "answer_4": "All Solutions Is Wrong",
+    "right_answer": "function myFunction()"
+    },
+    {
+    "title": "What is the correct way to write a JavaScript array?",
+    "answer_1": "var colors = (1:`red`, 2:`green`, 3:`blue`)",
+    "answer_2": "var colors = `red`, `green`, `blue`",
+    "answer_3": "var colors = [`red`, `green`, `blue`]",
+    "answer_4": "var colors = 1 = (`red`), 2 = (`green`), 3 = (`blue`)",
+    "right_answer": "var colors = [`red`, `green`, `blue`]"
+    },
+    {
+    "title": "What is the correct JavaScript syntax for opening a new window called `w2` ?",
+    "answer_1": "w2 = window.open(`http://www.w3schools.com`);",
+    "answer_2": "w2 = window.new(`http://www.w3schools.co`);",
+    "answer_3": "All Is Right",
+    "answer_4": "w2 = window.(`http://www.w3schools.com`);",
+    "right_answer": "w2 = window.open(`http://www.w3schools.com`);"
+    },
+    {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "variable carName;",
+    "answer_2": "var carName;",
+    "answer_3": "v carName;",
+    "answer_4": "va carName;",
+    "right_answer": "var carName;"
+    },
+    {
+    "title": "Where is the correct place to insert a JavaScript?",
+    "answer_1": " The <head> section",
+    "answer_2": " The <body> section",
+    "answer_3": "The <footer>",
+    "answer_4": "Both the <head> section and the <bo dy> section are correct",
+    "right_answer": "Both the <head> section and the <bo dy> section are correct"
+    }
+]
