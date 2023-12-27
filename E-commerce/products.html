@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="e-commerce Fruits And Vegetables " />
+    <title>Cart Products</title>
+        <!--Start  Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" href="images/product-1.png" />
+        <!--End  Fonts  -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/cart-item.css">
+</head>
+<body>
+
+
+   <!-- Start Spinner Loader -->
+   <div class="spinner-loader">
+    <div class="spinner-border text-info"></div>
+  </div>
+  <!-- End Spinner Loader -->
+
+  <!-- Start Scroll To Top  -->
+  <div class="scroll-top btn btn-outline-success">
+    <i class="fa-solid fa-arrow-up"></i>
+  </div>
+  <!-- End Scroll To Top  -->
+
+  <!-- start Header  -->
+  <header>
+    <div class="header text-success text-center fs-5 p-1">
+      Free shipping for all order of $105
+    </div>
+  </header>
+  <!-- End Header  -->
+
+  
+  <!-- Start Navbar  -->
+  <nav class="navbar navbar-expand-lg mb-5">
+    <div class="container">
+      <a href="index.html" class="navbar-brand fs-2">Organic</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#a">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div
+        class="container justify-content-around collapse navbar-collapse align-items-center"
+        id="a">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-success fs-5 active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="testimonial.html" class="nav-link fs-5">Testimonials</a>
+          </li>
+          <li class="nav-item"><a href="#products" class="nav-link fs-5">Shop</a></li>
+          <li class="nav-item"><a href="#blog" class="nav-link fs-5">Blog</a></li>
+          <li class="nav-item">
+            <a href="trendy-products.html" class="nav-link fs-5">Trendy Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link fs-5">Contact</a>
+          </li>
+        </ul>
+        <div class="icons">
+          <ul class="nav">
+            <li
+              class="p-3 bg-light m-2 rounded-circle lh-1 border border-success">
+              <i class="fa-solid fa-magnifying-glass text-success"></i>
+            </li>
+                    <li
+                    class="p-3 bg-light m-2 rounded-circle lh-1 position-relative">
+                    <a href="favorite.html">    <i class="fa-solid fa-heart text-success"
+                      >
+                      <span
+                          class="position-absolute top-0 start-100 translate-middle badge num rounded-pill bg-success  num-heart"
+                          >0</span
+                          >
+                          </i
+                      ></a>
+                    
+                    </li>
+            <li
+            class="p-3 bg-light m-2 rounded-circle lh-1 position-relative">
+            <a href="products.html">    <i class="fa-solid fa-cart-shopping text-success"
+              >
+              <span
+                  class="position-absolute top-0 start-100 translate-middle badge num rounded-pill bg-success shop"
+                  >0</span
+                  >
+                  </i
+              ></a>
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar  -->
+
+
+
+  
+
+    <!-- Start  Product  -->
+    <div class="products-added">
+      <div class="main-cart-item m-4"></div>
+      <div class="cart-totals text-center ">
+        <h2 class="m2">CART TOTALS</h2>
+        <p class="text-secondary fs-2">Shopping : <span class="text-info fs-5">Shipping: There Are No Shipping Methods Available. Please Double Check Your Address, Or Contact Us If You Need Any Help.</span></p>
+    
+        <div class="dropdown p-4">
+          <h3 class="text-success p-3">CALCULATE SHIPPING</h3>
+          <button class="btn btn-outline-info dropdown-toggle" data-bs-toggle="dropdown">Counter</button>
+          <ul class="dropdown-menu dropdown-menu-dark p-2">
+            <h4>Select Counter</h4>
+            <li class="dropdown-item"></li>
+            <li class="dropdown-item active">Egypt</li>
+            <li class="dropdown-item">USA</li>
+            <li class="dropdown-item">UK</li>
+          </ul>
+        </div>
+        <button class="btn btn-outline-success">proceed To Checked Out</button>
+    
+      </div>
+    </div>
+
+<div class="alert alert-info text-success text-center fs-3">proceed to checkout
+    <span class="close">X</span>
+</div>
+
+<!-- End  Products -->
+
+
+
+
+
+<!-- Start Footer  -->
+<footer class="text-light" id="footer">
+    <div class="all-links-footer p-3 container">
+      <ul class="list-unstyled">
+        <h3><a href="index.html" class="navbar-brand fs-2">Organic</a></h3>
+        <li class="lh-5 text-secondary">It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</li>
+        <div class="socials d-flex align-items-center flex-wrap ">
+          <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-facebook"></i></li>
+          <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-x-twitter"></i></li>
+          <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-skype"></i></li>
+          <li class="m-2 fs-3 rounded-circle"><i class="fa-brands fa-linkedin"></i></li>
+        </div>
+      </ul>
+      <ul class="list-unstyled">
+        <h3>Company</h3>
+        <li class="text-secondary">About US</li>
+        <li class="text-secondary">Shop</li>
+        <li class="text-secondary">Blog</li>
+        <li class="text-secondary">products</li>
+        <li class="text-secondary">Contact Us</li>
+      </ul>
+      <ul class="list-unstyled">
+        <h3>Contact</h3>
+        <li class="text-secondary"><i class="fa-solid fa-location-dot"></i> <span>7 Green Lake Street Crawfordsville, IN 47933</span></li>
+        <li class="text-secondary"><i class="fa-solid fa-phone"></i> <span>+1 80 01250 0600</span></li>
+        <li class="text-secondary"><i class="fa-regular fa-envelope"></i> <span>organica@help.com</span></li>
+      </ul>
+      <ul class="list-unstyled">
+        <h3>Newsletter</h3>
+        <li class="text-secondary">You will be notified when somthing new will be appear.</li>
+        <form>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" class="text-success">Email address</label>
+            </div>
+        </form>
+      </ul>
+    </div>
+  </footer>
+  <!-- End Footer  -->
+
+
+
+
+
+<script>
+  let numberOfProducts = document.querySelector(".icons ul li a .shop")
+  // if (localStorage.getItem('decreaseNumberProducts') !== null) {
+  //   numberOfProducts.innerHTML = localStorage.getItem('decreaseNumberProducts')
+  // }
+    // Function Remove product From Favorite Cart  /
+    function removeProduct(product) {
+    product.remove()
+    numberOfProducts.innerHTML--
+    }
+
+    // function By product From Favorite Cart  
+    function byProduct(product) {
+    product.remove()
+    numberOfProducts.innerHTML--
+    document.querySelector(".alert").classList.add("appear")
+    const removeAlert = document.querySelector(".alert .close") 
+    removeAlert.addEventListener("click", e => {
+        e.target.parentElement.classList.remove("appear")
+    })
+    }
+</script>
+
+
+
+    <script  src="js/bootstrap.bundle.min.js"></script>
+    <script  src="js/addProducts.js" type="module"></script>
+</body>
+</html>
