@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial,Tahoma,sans-serif;
+    background: url(../background-img/Leonardo_Creative_sky_rain_3.jpg);
+    background-size: cover;
+}
+
+.content {
+    width: 80%;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #37a4c6d6;
+    position: relative;
+}
+
+@media(max-width:929px) {
+    .content {
+        height: 110vh;
+    }
+}
+@media(max-width:767px) {
+    .content {
+        height: 150vh;
+    }
+}
+@media(max-width:567px) {
+    .content {
+        height: 220vh;
+    }
+}
+
+.content .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.error-message {
+    position: absolute;
+    top: -14%;
+    left: 17%;
+    font-size: 17px;
+    color: #fff;
+    background: red;
+    padding: 10px;
+    width: fit-content;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.error-message.active {
+    top: 32%;
+}
+.content .search input {
+    outline: none;
+    padding: 5px 20px;
+    width: 89%;
+    border: none;
+    margin: 10px;
+}
+.content .search input:focus {
+    border: #37a4c6d6;
+}
+
+.content .search i {
+    cursor: pointer;
+    background: #0075ff;
+    color: #FFF;
+    padding: 9px;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.content .info {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.content .info .status-weather {
+    margin: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.content .info .status-weather i {
+    color: orange;
+    font-size: 50px;
+}
+
+.info .degree {
+    margin: 30px;
+}
+.info .degree i {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info .degree span {
+    color: #FFF;
+    font-size: 20px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.info .degree span:hover {
+    color: orange;
+}
+
+.info .place-name {
+    color: #ffc71c;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.all-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+
+}
+.all-details .box {
+    background: linear-gradient(#00feba,#5b548a);
+    padding: 10px;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow:  0 0 0 0;
+}
+.content .all-details .box .logo {
+    text-align: center;
+    color: #aaa;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+.content .all-details .box .logo h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .all-details .box .logo .sun,
+.content .all-details .box .logo .temp{
+    color: orange;
+}
+
+.content .all-details .box .status {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content .all-details .box .status  i {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+.content .all-details .box .status .max-temp i {
+    color: red;
+}
+.content .all-details .box .status .min-temp i, 
+.content .all-details .box .status .windy-speed i,
+.content .all-details .box .status .humidity i{
+    color: #fff;
+}
+.content .all-details .box  .humidity span {
+    font-size: 17px;
+}
+.content .all-details .box  .clouds-degree i{
+    
+    color: #fff;
+}
+.content .all-details .box  .clouds-degree i, 
+.content .all-details .box .status .storm i,
+.content .all-details .box .weather-state  i{
+    font-size: 30px;
+}
+.content .all-details .box .status .storm i {
+    color: blue;
+}
+.content .all-details .box .weather-state  i {
+    color: orange;
+}
+.content .all-details .box .status span {
+    color: #fff;
+}
+.content .all-details .box .weather-state span {
+    color: #ffc71c;
+    font-size: 25px;
+}
+.content .all-details .description .weather-state ,
+.content .all-details .clouds .clouds-degree {
+    text-align: center;
+}
+
+.content .all-details .description span,
+.content .all-details .clouds span,
+.content .all-details .countries .country span{
+    color: #FFF;
+    font-size: 20px;
+}
