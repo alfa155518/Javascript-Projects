@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musers your speed</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="game">
+        <h2>Typing Speed Game</h2>
+        <div class="container">
+            <div class="buttons">
+                <h3>Select Your Mode</h3>
+                <span data-mode="easy">EASY</span>
+                <span data-mode="normal">NORMAL</span>
+                <span data-mode="hard">HARD</span>
+            </div>
+            <div class="counter">You are Playing On <span class="mode"></span> Mode &  You Have <span class="seconds"></span> Seconds To The Word</div>
+            <div class="start-button">Start</div>
+            <div class="random-word"></div>
+            <input type="text">
+            <div class="all-words"></div>
+            <div class="result">
+                <div class="time">
+                    Time left: <span></span> Seconds
+                </div>
+                <div class="score">
+                    Score: <span></span> from <span></span>
+                </div>
+            </div>
+            <div class="finish"></div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
